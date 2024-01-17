@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <style>
+     
+      #parent,#child,#grandparent {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 30px;
+        border: 1px solid black;
+      }
+    
+    </style>
+    <title>Event bubbling and event capturing</title>
+  </head>
+  <body>
+    <h1>Event bubbling and event capturing/trikling</h1>
+    <div id="grandparent">
+      <div id="parent">
+        <div id="child">
+
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
