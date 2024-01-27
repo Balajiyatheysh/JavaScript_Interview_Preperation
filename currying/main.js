@@ -7,7 +7,7 @@
 // }
 
 // const multiplyByTwo = multiply.bind(this, 2);
-// console.log(multiplyByTwo(3));
+// console.log(multiplyByTwo(3)); 
 
 //this is using closure method
 function multiply(x){
