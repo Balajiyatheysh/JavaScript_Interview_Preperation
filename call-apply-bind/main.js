@@ -14,6 +14,7 @@ const printFullName= function(state, city){
 
 printFullName.call(getName, "Karnataka", "Bangalore");
 printFullName.call(getName1, "Kerala", "Coimbator");
+
 printFullName.apply(getName, ["Maharastra", "Mumbai"]);
 
 const printName = printFullName.bind(getName, "Rajasthan", "Jaipur");

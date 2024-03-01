@@ -8,15 +8,9 @@ function removeDuplicatesFilterImproved(arr1, arr2) {
     return arr2.indexOf(element) === -1 || index < arr2.indexOf(element);
   });
 
-  const uniueArray2 = arr2.filter((element, index) => {
-
-    return arr1.indexOf(element) === -1;
-  });
-
-  const uniueArray1 = arr1.filter((element, index) => {
-
-    return arr2.indexOf(element) === -1;
-  });
+  //below this two return only unique elements from both arrays
+  const uniueArray2 = arr2.filter(element =>  arr1.indexOf(element) === -1);
+  const uniueArray1 = arr1.filter(element => arr2.indexOf(element) === -1 );
 
   // Concatenate with remaining elements from arr2 (optimization)
   console.log(uniqueArray);  // [1,2,3,4,5]
