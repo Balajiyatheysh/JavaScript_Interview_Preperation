@@ -21,3 +21,4 @@ const fetcher = async () => {
     console.log(myText);
 };
 fetcher();
+fetchFunction();
