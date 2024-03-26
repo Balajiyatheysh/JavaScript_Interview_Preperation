@@ -4,13 +4,13 @@ function withVar() {
   console.log(message); // Outputs: Hello from inside!
 }
 
-withVar();
+withVar()
 
 console.log(message); // ReferenceError: message is not defined (out of function scope)
 
 // Block scope with let
 if (true) {
-  let blockMessage = "This is a block message";
+  let blockMessage = "This is a block message"
   console.log(blockMessage); // Outputs: This is a block message 
 }
 
