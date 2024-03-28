@@ -12,8 +12,8 @@ async function  fetchFunction (){
     })
    .then(function(myJson) {
         console.log(myJson);
-    });
-}
+    })
+};
 
 const fetcher = async () => {
     const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");   
