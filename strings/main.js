@@ -1,3 +1,4 @@
+//TRUNCATE FUNCTION
 const truncate = (str, maxlength) => {
   if (str.length > maxlength) {
     let str2 = str.slice(0, maxlength);
