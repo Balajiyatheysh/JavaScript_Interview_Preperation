@@ -11,4 +11,7 @@ let str = "Welcome to my channel";
 console.log(truncate(str, 7));
 
 //automic structure pattern
+
+
+
 //backend for frontends
