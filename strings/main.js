@@ -10,8 +10,17 @@ const truncate = (str, maxlength) => {
 let str = "Welcome to my channel";
 console.log(truncate(str, 7));
 
+
+//check palindrome
+const palindrome= ()=>{
+  return true;
+}
+
+console.log(palindrome(101));
+
 //automic structure pattern
 
 
 
 //backend for frontends
+
