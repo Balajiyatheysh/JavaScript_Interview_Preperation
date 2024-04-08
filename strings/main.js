@@ -7,16 +7,23 @@ const truncate = (str, maxlength) => {
     return str;
   }
 };
+
 let str = "Welcome to my channel";
-console.log(truncate(str, 7));
+// console.log(truncate(str, 7));
 
 
-//check palindrome
-const palindrome= ()=>{
-  return true;
-}
+//palindrome
+const isPalindrome = function (x){
+  return x <0 ? false : x === +x.toString().split("").reverse().join("");
+};
+// console.log(isPalindrome(-12541));
 
-console.log(palindrome(101));
+//hamming distance
+
+
+
+
+
 
 //automic structure pattern
 
