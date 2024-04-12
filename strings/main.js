@@ -31,3 +31,17 @@ const isPalindrome = function (x){
 
 //backend for frontends
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
