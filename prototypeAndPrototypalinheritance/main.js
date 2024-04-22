@@ -35,10 +35,10 @@ console.log(arr.__proto__); // this is Array.prototype
 console.log(Array.prototype);
 console.log(arr.__proto__.__proto__); //this is Object.prototype
 console.log(Object.prototype);
-console.log(arr.__proto__.__proto__.__proto__); // this will be bull
+console.log(arr.__proto__.__proto__.__proto__); // this will be null
 
 console.log(multiply.__proto__);
-console.log(multiply.__proto__.__proto__);//this is Object.prototype
+console.log(multiply.__proto__.__proto__); // this is Object.prototype
 
 console.log(object.__proto__); //Object.prototype
 console.log(object.__proto__.__proto__); //null
