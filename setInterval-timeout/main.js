@@ -5,7 +5,7 @@ function typeWriter() {
   if (index < message.length) {
     document.getElementById("typedText").textContent += message.charAt(index);
     index++;
-    setTimeout(typeWriter, 50); // Delay between characters
+    setTimeout(typeWriter, 100); // Delay between characters
   }
 }
 

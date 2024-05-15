@@ -1,7 +1,9 @@
 const myPromise = new Promise((res, rej)=>{
   if (true) {
-    res("result")
+    res("response successfull")
+  }else{
+    rej("rejected")
   }
 });
 
-myPromise.then().catch();
+console.log(myPromise.then().catch());
