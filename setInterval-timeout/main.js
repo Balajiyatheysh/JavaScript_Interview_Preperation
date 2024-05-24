@@ -9,6 +9,6 @@ function typeWriter() {
   }
 }
 
-typeWriter()
+typeWriter();
 
 
